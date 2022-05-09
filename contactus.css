@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color:transparent;
+}
+body{
+   /* background-image: url(../Project/images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;*/
+    overflow: hidden    ;
+}
+.containerbox{
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom:solid #FFF01F;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom:  0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#FFF01F;
+    transition: width 0.2s;
+}
+nav ul li a:hover::after{
+    width: 50%;
+}
+.navbar {
+    border-width: 3px;  
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style:none ;
+    display: inline-block;
+    margin-right:40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*padding:20px 100px;*/
+}
+.containerbox::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../Project/images/background1.jpg") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+.contact-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    z-index: 1000px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:0px 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+ .container h1{
+     font-size: 28px;
+     font-weight: 800;
+    position: relative;
+    color:white;
+    text-align: center;
+}
+
+.contact-info h1::after{
+content: '';
+position: absolute;
+left: 50%;
+bottom:-10px;
+transform: translateX(-50%);
+height:3px;
+border-radius: 3px;
+width:200px;
+background-color:#FFF01F ;
+}
+
+.field{
+   width: 70%; 
+   padding: 0.5rem 1rem;
+   background: transparent;
+   outline: none;
+   border: 1px solid rgba(255,255,0,0.2);
+   border-radius: 10px;
+   font-size: 20px;
+   margin-bottom: 22px;
+   transition: 0.3s;
+   color: #FFF01F;
+   text-align: center;
+}
+.field:focus , .field:hover{
+    background: transparent;
+}
+.field::placeholder{
+    color: rgba(255,255,0,0.3);
+    font-weight: 700;
+}
+
+.area{
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 70%;
+    max-width: 70%;
+    text-align: left;
+}
+.sendbtn{
+    width: 70%;
+    padding:8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,0,0.2);
+}
+.sendbtn:hover , .sendbtn::selection{
+    background-color: rgba(255,255,0,0.2);
+}
+.socials .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    overflow: hidden;
+    transition:all 0.3s ease-out;
+}
+.socials .button:hover{
+    width:200px
+}
+.socials .button .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 50px;
+    color: #FFF01F;
+}
+.fab{
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.socials .button span{
+    font-size: 20px;
+    color: #FFF01F;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
