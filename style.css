@@ -39,7 +39,7 @@ nav ul li a:hover::after{
 .welcome h1{
    color: transparent;
    -webkit-text-stroke: 0.5px #FFF01F;
-   background-image: url(../project/images/effect.png);
+   background-image: url(./images/effect.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: effect 50s linear infinite;
@@ -184,7 +184,7 @@ nav ul li a:hover::after{
 }
 @media screen and (max-width:600px) {
     body{
-        background-image: url(../Project/images/background1.jpg);
+        background-image: url(./images/background1.jpg);
      
     }
     .navbar {
@@ -325,7 +325,7 @@ nav ul li a:hover::after{
 }
 @media screen and (min-width:601px) and (max-width: 768px){
     body{
-        background-image: url(../Project/images/phone_background.jpg);
+        background-image: url(./images/phone_background.jpg);
      
     }
     .navbar {
@@ -466,7 +466,7 @@ nav ul li a:hover::after{
 }
 @media screen and (min-width: 769px) and (max-width:992px) {
     body{
-        background-image: url(../Project/images/background1.jpg);
+        background-image: url(.images/background1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -662,7 +662,7 @@ nav ul li a:hover::after{
 }
 @media screen and (min-width:993px) and (max-width:1200px)  {
     body{
-        background-image: url(../Project/images/phone_background.jpg);
+        background-image: url(./images/phone_background.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
@@ -866,7 +866,7 @@ nav ul li a:hover::after{
 }
 @media  screen and (min-width: 1200px) and (max-width:1600px) {  
 body{
-    background-image: url(../Project/images/background1.jpg);
+    background-image: url(./images/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1060,7 +1060,7 @@ nav ul li a{
 }
 @media screen and (min-width:1600px) {
    body{
-    background-image: url(../Project/images/background1.jpg);
+    background-image: url(./images/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
