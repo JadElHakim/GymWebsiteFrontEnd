@@ -39,7 +39,7 @@ nav ul li a:hover::after{
 .welcome h1{
    color: transparent;
    -webkit-text-stroke: 0.5px #FFF01F;
-   background-image: url(/images/effect.png);
+   background-image: url(./images/effect.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: effect 50s linear infinite;
@@ -466,7 +466,7 @@ nav ul li a:hover::after{
 }
 @media screen and (min-width: 769px) and (max-width:992px) {
     body{
-        background-image: url(.images/background1.jpg);
+        background-image: url(./images/background1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
