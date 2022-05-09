@@ -12,7 +12,7 @@
     overflow-y: scroll;
 }
 .containerbox{
-    background-image: url(../Project/images/backgroundpage1.jpg);
+    background-image: url(./images/backgroundpage1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -21,7 +21,7 @@
     scroll-snap-align: start;
     }
 .containerboxpage2{
-    background-image: url(../Project/images/backgroundpage2.jpg);
+    background-image: url(./images/backgroundpage2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -30,7 +30,7 @@
 }
 .containerbox2{
     scroll-snap-align: start;
-    background-image: url(../Project/images/day2back.jpg);
+    background-image: url(./images/day2back.jpg);
     background-size: cover;
     width:100%;
     height: 105vh;
@@ -39,7 +39,7 @@
     padding-right: 4%;
 }
 .containerbox2page2{
-    background-image: url(../Project/images/background3page2.jpg);
+    background-image: url(./images/background3page2.jpg);
     background-size: cover;
     width:100%;
     height:105vh;
@@ -49,7 +49,7 @@
 }
 .containerbox3{
     scroll-snap-align: start;
-    background-image: url(../Project/images/day2back1.jpg);
+    background-image: url(./images/day2back1.jpg);
     background-size: cover;
     width:100%;
     height:100vh;
@@ -58,7 +58,7 @@
     padding-right: 4%;
 }
 .containerbox3page2{
-    background-image: url(../Project/images/background2page2.jpg);
+    background-image: url(./images/background2page2.jpg);
     background-size: cover;
     width:100%;
     height:100vh;
@@ -198,7 +198,7 @@ nav ul li a:hover::after{
 .firstday h1{
     color: transparent;
     -webkit-text-stroke: 0.5px #FFF01F;
-    background-image: url(../project/images/effect.png);
+    background-image: url(./images/effect.png);
      -webkit-background-clip: text;
      background-position: 0 0;
      animation: effect 50s linear infinite;
@@ -219,17 +219,17 @@ nav ul li a:hover::after{
     }
     .containerbox{
         height:100%;
-        background-image: url(../Project/images/altback.jpg);
+        background-image: url(./images/altback.jpg);
         background-position-x: center;
     }
     .containerbox2{
         height:100%;
-        background-image: url(../Project/images/altback1.jpg);
+        background-image: url(./images/altback1.jpg);
         background-position-x: center;
     }
     .containerbox3{
         height:100%;
-        background-image: url(../Project/images/altback2.jpg);
+        background-image: url(./images/altback2.jpg);
         background-position-x: center;
     }
     .containerboxpage2{
@@ -356,32 +356,32 @@ nav ul li a:hover::after{
     }
     .containerbox{
         height:100%;
-        background-image: url(../Project/images/altback3.jpg);
+        background-image: url(./images/altback3.jpg);
         background-position-x: center;
     }
     .containerbox2{
         height:100%;   
-        background-image: url(../Project/images/altback4.jpg);
+        background-image: url(./images/altback4.jpg);
         background-position-x: center;
     }
     .containerbox3{
         height:100%;
-        background-image: url(../Project/images/altback5.jpg);
+        background-image: url(./images/altback5.jpg);
         background-position-x: center;
     }
     .containerboxpage2{
         height:100%;
-        background-image: url(../Project/images/altback.jpg);
+        background-image: url(./images/altback.jpg);
         background-position-x: center;
     }
     .containerbox2page2{
-        background-image: url(../Project/images/altback3.jpg);
+        background-image: url(./images/altback3.jpg);
         background-position-x: center;
         height:100%;
     }
     .containerbox3page2{
         height:100%;
-        background-image: url(../Project/images/altback5.jpg);
+        background-image: url(./images/altback5.jpg);
         background-position-x: center;
     }
     .navbar {
